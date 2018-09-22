@@ -1,8 +1,13 @@
-// Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
+// Bootstrap overrides (must come BEFORE bootstrap import)
+$primary: red;
 
-// Bootstrap overrides
+// Custom SCSS
 // @import './sass/abstracts';
 // @import './sass/base';
 // @import './sass/components';
 // @import './sass/layout';
+
+// Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
